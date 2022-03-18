@@ -1,0 +1,19 @@
+{
+  "name": "webscrapping_project",
+  "version": "1.0.0",
+  "description": "WebScrapping using puppeteer",
+  "main": "index.js",
+  "scripts": {
+    "scraper": "node scraper.js",
+    "scraper:3": "for run in {1..3}; do node scraper.js; done"
+  },
+  "author": "Shubhjot Singh",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^9.2.2",
+    "prettier": "^2.6.0",
+    "puppeteer": "^13.5.1",
+    "random-useragent": "^0.5.0"
+  }
+}
